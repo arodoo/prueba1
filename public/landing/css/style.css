@@ -1,0 +1,101 @@
+.contenedor {
+    padding-top: 6rem;
+    
+}
+
+.divQuienes{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background-color: #2f210c00;
+    width: 60%;
+}
+
+.divPQuienes{
+    color: white;
+    padding-top: 4rem;
+}
+
+.pQuienes{
+    font-weight: 800;
+}
+
+.cardTranslucid{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #00000052;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.contenedormed{
+    padding-top: 6rem;
+}
+
+.backgroundimg{
+    background-image: url("../../assets/img/login/fondoPantallaLogin.png");
+}
+.backgroundimg2{
+    object-fit: cover;
+    background: url('../../assets/img/cueroDeCalidad.jpg') no-repeat center center/cover ;
+}
+
+.backgroundimg3{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../../assets/img/vacaMamada.jpg) no-repeat center center/cover;
+}
+
+.backgroundimgCuero{
+    object-fit: cover;
+    background-image: url(../assets/img/bg-masthead.jpg);
+}
+
+.backgroundimgCueroNegro{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../../landing/assets/img/cueroNegro.jpg) no-repeat center center/cover;
+}
+.backgroundimgZapatosCuero{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../../landing/assets/img/zapatosCuero1.jpg) no-repeat center center/cover;
+}
+
+.vacaMamadaTall{
+    height: 90%;
+}
+
+.imgVacaMamada{
+    height: 20rem;
+    width: fit-content;
+}
+
+.btnSubmit{
+    background-color: #e5bd82;
+    justify-content: flex-end;
+}
+
+.imgCircle{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50% !important;
+}
+
+.imgCircleMed{
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50% !important;
+    margin-bottom: 9%;
+}
+
+.color1 {background-color: #120907 !important;}
+.color2 {background-color: #271909 !important;}
+.color3 {background-color: #574326 !important;}
+.color4 {background-color: #8d7448 !important;}
+.color5 {background-color: #c4ab6c !important;}
+.color11{background-color: black;}
+
+.color6{color: #f9f9f9;}
+
+
+
+
+  

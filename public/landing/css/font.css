@@ -1,0 +1,14 @@
+.Golosfont{
+    font-family: 'Golos Text', sans-serif;
+}
+
+.contenedor {
+    position: relative;
+  }
+  
+  .hijo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
