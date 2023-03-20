@@ -38,3 +38,14 @@ Route::group(['prefix' => 'category'], function(){
     Route::get('/{id}/destroy',[App\Http\Controllers\Admin\Categorycontroller::class, 'destroy'])->name('category.destroy');
     Route::get('/show/{id}',[App\Http\Controllers\Admin\Categorycontroller::class, 'show'])->name('category.show');
 });
+
+Route::group(['prefix' => 'product'], function(){
+    Route::get('/productos', [App\Http\Controllers\Admin\ProductController::class, 'index'])->name('product.index');
+    Route::get('/create', [App\Http\Controllers\Admin\ProductController::class, 'create'])->name('product.create');
+    Route::post('/store', [App\Http\Controllers\Admin\ProductController::class, 'store'])->name('product.store');
+    Route::get('/edit/{id}', [App\Http\Controllers\Admin\ProductController::class, 'edit'])->name('product.edit');
+    Route::put('/{id}', [App\Http\Controllers\Admin\ProductController::class, 'update'])->name('product.update');
+    Route::get('/delete/{id}', [App\Http\Controllers\Admin\ProductController::class, 'delete'])->name('product.delete');
+    Route::get('/{id}/destroy', [App\Http\Controllers\Admin\ProductController::class, 'destroy'])->name('product.destroy');
+    Route::get('/show/{id}', [App\Http\Controllers\Admin\ProductController::class, 'show'])->name('product.show');
+});

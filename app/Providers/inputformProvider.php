@@ -59,7 +59,7 @@ class inputformProvider extends ServiceProvider
             $atributes['onkeyup']='UTZero(event,this)';
             $atributes['title']=$title;
             $atributes['maxlength']=$length;
-            $atributes['style']='background-color: #ffffff;';
+            $atributes['style']='background-color: #ffffff color:#000000; text-align:right;';
             if($readonly!=null){$atributes['readonly']=$readonly;}
             $comp.= '<div class="form-line">';
             if($value!=null){$comp.= Form::text($name, $value, $atributes, array('id' => $name));}else{$comp.= Form::text($name, old($name), $atributes, array('id' => $name));}
@@ -71,7 +71,7 @@ class inputformProvider extends ServiceProvider
         });
 
 
-        Form::macro('UTFloat', function ($name,$label,$title,$value=null,$errors,$required=null,$readonly=null)
+        Form::macro('UTFloat', function ($name,$label,$title,$value=null,$errors,$length,$required=null,$readonly=null)
         {
             if($errors->has($name)) {$comp = '<div class="form-group has-error">';} else {$comp = '<div class="form-group form-float">';}
             if($required){$atributes['required']='';}
@@ -80,8 +80,8 @@ class inputformProvider extends ServiceProvider
             $atributes['onkeypress']='return UTFloat(event,this);';
             $atributes['onkeyup']='UTZero(event,this)';
             $atributes['title']=$title;
-            $atributes['maxlength']='10';
-            $atributes['style']='background-color: #ffffff; text-align:right;';
+            $atributes['maxlength']=$length;
+            $atributes['style']='background-color: #ffffff color:#000000; text-align:right;';
             if($readonly!=null){$atributes['readonly']=$readonly;}
             $comp.= '<div class="form-line">';
             if($value!=null){$comp.= Form::text($name, $value, $atributes, array('id' => $name));}else{$comp.= Form::text($name, old($name), $atributes, array('id' => $name));}
@@ -102,8 +102,8 @@ class inputformProvider extends ServiceProvider
             $atributes['onkeypress']='return UTText(event,this);';
             $atributes['title']=$title;
             $atributes['maxlength']=$length;
-            $atributes['style']='background-color: #ffffff;';
-            $atributes['style']='color: #000000;';
+            $atributes['style']='background-color: #ffffff color:#000000;';
+            //$atributes['style']='color: #000000;';
             if($click!=null){$atributes['onclick']=$click;}
             if($readonly!=null){$atributes['readonly']=$readonly;}
             $comp.= '<div class="form-line">';

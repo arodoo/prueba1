@@ -22,5 +22,6 @@
 
 <!--CSS for forms in Admin-->
 <link rel="stylesheet" href="{{ asset ('landing/css/inputForm.css')}}">
+@yield('stylesheet')
 
 

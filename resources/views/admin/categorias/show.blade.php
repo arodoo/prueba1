@@ -5,7 +5,7 @@
     @if (Session::has('status'))
         <div class="col-md-12 alert-section">
             <div class="alert alert-{{ Session::get('status_type') }}"
-                style="text-align: center; padding: 5px; margin-bottom: 5px;">
+                 style="text-align: center; padding: 5px; margin-bottom: 5px;">
                 <span style="font-size: 20px; font-weight: bold;">
                     {{ Session::get('status') }}
                     @php
@@ -39,6 +39,7 @@
                                     $errors,
                                     40,
                                     true,
+                                    true,
                                 ) !!}
                             </div>
                             <div class="form-group">
@@ -49,6 +50,7 @@
                                     $category->descripcion,
                                     $errors,
                                     40,
+                                    true,
                                     true,
                                 ) !!}
                             </div>
@@ -64,4 +66,5 @@
 @stop
 @section('js')
     <script src="{{ asset('js/validatorFields.js') }}"></script>
-<@endsection()
+    <
+@endsection()

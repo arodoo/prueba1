@@ -327,7 +327,7 @@ return [
         ],
         [
             'text' => 'Productos',
-            'url'  => '/admin/admin/producto',
+            'url'  => '/admin/product/productos',
             'icon' => 'fas fa-fw fa-shopping-bag',
         ],
         [
@@ -337,7 +337,7 @@ return [
         ],
 
 
-        
+
        /* ['header' => 'Menú Cliente'],
         [
             'text' => 'Productos',
@@ -350,7 +350,7 @@ return [
             'icon' => 'fas fa-fw fa-cart-plus ',
         ],
         */
-        
+
         // [
         //     'text'    => 'multilevel',
         //     'icon'    => 'fas fa-fw fa-share',

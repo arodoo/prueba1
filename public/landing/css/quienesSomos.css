@@ -1,0 +1,21 @@
+.container {
+    display: flex; /* Utilizamos flexbox para alinear los divs */
+  }
+  
+  .left {
+    flex: 1; /* Asignamos un 50% del ancho a este div */
+    background-color: #f1f1f100; /* Establecemos un color de fondo */
+    padding: 10px; /* Añadimos un poco de espacio alrededor del texto */
+  }
+  
+  .right {
+    flex: 1; /* Asignamos un 50% del ancho a este div */
+    background-color: #e1e1e100; /* Establecemos un color de fondo */
+    padding: 10px; /* Añadimos un poco de espacio alrededor del texto */
+  }
+
+  .tText{
+    padding-right: 2rem;
+    text-align: justify;
+   
+}

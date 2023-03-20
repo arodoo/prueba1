@@ -1,10 +1,10 @@
 @extends('landing.layout.principal')
 @section('contenido')
 <!-- Services-->
-<section class="content-section bg-primary text-white text-center color1" id="services">
-    <div class="container px-4 px-lg-5">
+<section class="content-section bg-primary text-white text-center color7" id="services">
+    <div class="container px-4 px-lg-5" style="color:black">
         <div class="content-section-heading">
-            <h3 class="text-secondary mb-0">¿Zapatos?</h3>
+            <h1 class="text-secondary mb-0">¿Zapatos?</h1>
             <h2 class="mb-5">Los mejores del mercado</h2>
         </div>
         <div class="row gx-4 gx-lg-5">

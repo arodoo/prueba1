@@ -15,9 +15,9 @@
                             somos?</a></li>
                     <li class="sidebar-nav-item"><a class="nav-link" href="{{ route('landing.mision') }}">Misión y
                             Visión</a></li>
-                    <li class="sidebar-nav-item"><a class="nav-link"
-                            href="{{ route('landing.contacto') }}">Contáctanos</a>
-                    </li>
+                  {{--   <li class="sidebar-nav-item"><a class="nav-link"
+                            href="{{ route('landing.contacto') }}">Afíliate</a>
+                    </li> --}}
                     <li class="sidebar-nav-item"><a class="nav-link" href="{{ route('login') }}">Inicia sesión</a></li>
                     <li class="sidebar-nav-item"><a class="nav-link" href="{{ route('register') }}">Regístrate</a></li>
                 </ul>

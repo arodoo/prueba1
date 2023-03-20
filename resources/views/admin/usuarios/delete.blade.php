@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a type="button" href="{{ route('users.index') }}" class="btn btn-danger">Regresar</a>
+                            <a type="button" href="{{ route('users.index') }}" class="btn btn-primary">Regresar</a>
                             <button type="submit" class="btn btn-danger">Eliminar</button>
                         </div>
                     </fieldset>

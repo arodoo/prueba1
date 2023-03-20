@@ -37,15 +37,8 @@
                                 {!! Form::UTEmail('email', 'Correo electrónico', 'Correo electrónico', $user->email, $errors, 50, true, true) !!}
                             </div>
                         </div>
-
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <label for="">Nombre del usuario</label>
-                                <h4> {{ $user->name }}</h4>
-                            </div>
-                        </div>
                         <div class="card-footer">
-                            <a type="button" href="{{ route('users.index') }}" class="btn btn-danger">Regresar</a>
+                            <a type="button" href="{{ route('users.index') }}" class="btn btn-primary">Regresar</a>
                         </div>
                     </div>
                 </div>

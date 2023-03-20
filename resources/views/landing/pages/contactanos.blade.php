@@ -66,3 +66,6 @@
         </div>
     </section>
 @endsection()
+@section('js')
+        <script src="{{asset('js/validatorFields.js')}}"></script>
+<@endsection()

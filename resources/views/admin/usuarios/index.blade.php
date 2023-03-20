@@ -38,7 +38,7 @@
                                 <form action="{{route('users.index')}}" method="get">
                                     <div class="input-group">
                                         <input type="text" class="form-control" name="search"
-                                        value="{{$search}}" placeholder="Dato a buscar">
+                                        value="{{$search}}" placeholder="Buscar">
                                         <span class="input-group-text">
                                             <button class="btn btn-primary" type="submit">Buscar</button>
                                         </span>

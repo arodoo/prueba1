@@ -10,6 +10,10 @@
     width: 60%;
 }
 
+.divQuienesMision{
+    margin-bottom: 0rem;
+}
+
 .divPQuienes{
     color: white;
     padding-top: 4rem;
@@ -53,7 +57,10 @@
 }
 
 .backgroundimgCueroNegro{
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../../landing/assets/img/cueroNegro.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../../landing/assets/img/cueroNegro.jpg) 
+    no-repeat center center/cover;
 }
 .backgroundimgZapatosCuero{
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../../landing/assets/img/zapatosCuero1.jpg) no-repeat center center/cover;
@@ -94,8 +101,71 @@
 .color11{background-color: black;}
 
 .color6{color: #f9f9f9;}
+.color7{
+    background-color: white !important;
+}
 
 
 
 
+  /* Pen-specific styles */
+/* * {
+    box-sizing: border-box;
+  } */
+  .body-map {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    line-height: 150%;
+    text-shadow: 0 2px 2px #b6701e;
+  }
+
+
+  /*
+  CSS for mision visión
+  */
   
+
+  /*
+  CSS for quienes somos 
+  */
+
+  .div_mapa{
+    margin-top: 1%;
+  }
+
+  /*
+  For footer
+  */
+
+  .foot_size{
+    height: 5rem;
+  }
+
+  .divSpace{
+    padding-top: 2rem;
+  }
+
+  /*
+  footer
+  */
+  footer {
+    background-color: #F1F1F1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contacto p,
+  .ubicacion p {
+    margin: 0;
+  }
+  
+  .contacto strong,
+  .ubicacion strong {
+    font-weight: bold;
+  }
+  
+  .derechos {
+    text-align: center;
+  }

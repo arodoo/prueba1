@@ -19,7 +19,7 @@
     <div class="card">
         <div class="card-header">
             <ul>
-               <b>Categorias || Nuevo registro</b> 
+               <b>Categorias || Nuevo registro</b>
             </ul>
         </div>
         <div class="card-body">
@@ -38,7 +38,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    {!!Form::UTTextOnly('descripcion', 'Descripcion de la categoria', 'Descripcion de la categoria', null, $errors, 40, true )!!}
+                                    {!!Form::UTTextOnly('descripcion', 'Descripcion de la categoria', 'Descripcion de la categoria', null, $errors, 200, true )!!}
                                 </div>
 
                                 </div>

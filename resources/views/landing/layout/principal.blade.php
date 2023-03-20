@@ -18,11 +18,10 @@
         @yield('contenido')
     </body>
     <!--Footer-->
-    <footer class="footer text-center color11">
-        @include('landing.include.footer')
+    <footer>
+@include('landing.include.footer')
     </footer>
     <!--Scripts-->
-    @include('landing.include.script')
 </body>
-
+@include('landing.include.script')
 </html>
